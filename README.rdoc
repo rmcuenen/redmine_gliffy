@@ -1,0 +1,18 @@
+= Gliffy Redmine Plugin
+
+Diagrams Made Easy: Quickly create and collaborate on professional diagram
+
+=== Plugin installation
+
+1. Copy the plugin directory into the plugins directory
+
+2. Migrate plugin:
+   RAILS_ENV=production rake redmine:plugins:migrate
+
+3. Start Redmine
+
+4. Add the Wiki module into your project.
+
+=== Note
+
+This plugin works only on production mode.
