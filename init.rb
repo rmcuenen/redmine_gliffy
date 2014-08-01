@@ -6,4 +6,6 @@ Redmine::Plugin.register :redmine_gliffy do
   author 'R. Cuenen'
   description 'A plugin for including Gliffy Diagrams'
   version '0.0.1'
+  
+  settings :default => {'empty' => true}, :partial => 'settings/gliffy_settings'
 end

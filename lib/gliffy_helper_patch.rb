@@ -13,7 +13,7 @@ module Redmine
               out += javascript_tag <<-javascript_tag
               jsToolBar.prototype.elements.gliffy = {
                 type: 'button',
-                title: 'Gliffy Diagram',
+                title: '#{l(:label_tag_diagram)}',
                 fn: {
                   wiki: function() { this.encloseSelection("{{gliffy(", ")}}") }
                 }

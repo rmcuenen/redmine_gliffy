@@ -1,0 +1,14 @@
+<h1> <%= t('label.gliffy_settings') %> </h1>
+<p>
+  <table> 
+  <tr><td> <%= t('label.account_id') %> </td><td>
+  <%= text_field_tag('settings[gliffy_account]', @settings['gliffy_account'], :size => 80)%>
+  </td></tr>
+  <tr><td> <%= t('label.consumer_key') %> </td><td>
+  <%= text_field_tag('settings[gliffy_api_key]', @settings['gliffy_api_key'], :size => 80)%>
+  </td></tr>
+  <tr><td> <%= t('label.consumer_secret') %> </td><td>
+  <%= text_field_tag('settings[gliffy_api_secret]', @settings['gliffy_api_secret'], :size => 80)%>
+  </td></tr>
+  </table>
+</p>

@@ -1,0 +1,9 @@
+# Redmine Gliffy Diagrams
+en:
+  label:
+    gliffy_settings: Gliffy Account Settings
+    account_id: Account ID
+    consumer_key: API Consumer Key
+    consumer_secret: API Consumer Secret
+
+  label_tag_diagram: Gliffy Diagram
