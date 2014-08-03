@@ -2,8 +2,11 @@
 en:
   label:
     gliffy_settings: Gliffy Account Settings
-    account_id: Account ID
-    consumer_key: API Consumer Key
-    consumer_secret: API Consumer Secret
+    gliffy_account_id: Account ID
+    gliffy_username: Username
+    gliffy_consumer_key: API Consumer Key
+    gliffy_consumer_secret: API Consumer Secret
+  error:
+    no_diagram: Diagram ID is not set.
 
   label_tag_diagram: Gliffy Diagram

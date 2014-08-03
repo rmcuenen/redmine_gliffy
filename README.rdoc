@@ -6,8 +6,8 @@ Diagrams Made Easy: Quickly create and collaborate on professional diagram
 
 1. Copy the plugin directory into the plugins directory
 
-2. Migrate plugin:
-   RAILS_ENV=production rake redmine:plugins:migrate
+2. Run bundle:
+   bundle install
 
 3. Start Redmine
 

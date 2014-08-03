@@ -7,5 +7,13 @@ Redmine::Plugin.register :redmine_gliffy do
   description 'A plugin for including Gliffy Diagrams'
   version '0.0.1'
   
-  settings :default => {'empty' => true}, :partial => 'settings/gliffy_settings'
+  settings :default => {}, :partial => 'settings/gliffy_settings'
+end
+
+Redmine::WikiFormatting::Macros.register do
+  desc "Show Gliffy Diagram macro"
+  macro :gliffy do |obj, args|
+    diagram = GliffyDiagram.new(*args)
+    diagram.show
+  end
 end
