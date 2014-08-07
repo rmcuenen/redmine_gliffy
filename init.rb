@@ -1,5 +1,6 @@
 require 'redmine'
 require_dependency 'gliffy_helper_patch'
+require_dependency 'gliffy_view_hook'
 
 Redmine::Plugin.register :redmine_gliffy do
   name 'Redmine Gliffy plugin'

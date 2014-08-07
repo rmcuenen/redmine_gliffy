@@ -1,0 +1,20 @@
+.gliffy_diagram {
+  position: relative;
+}
+
+.gliffy_diagram img {
+  vertical-align: top;
+}
+
+.gliffy_diagram:after {
+  content: '\A';
+  position: absolute;
+  width: 96px; height: 32px;
+  right: 0;
+  background: url('../images/gliffy_edit.jpg') no-repeat;
+  opacity: 0;
+}
+
+.gliffy_diagram:hover:after {
+  opacity: 1;
+}
