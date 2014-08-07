@@ -6,6 +6,8 @@ en:
     gliffy_username: Username
     gliffy_consumer_key: API Consumer Key
     gliffy_consumer_secret: API Consumer Secret
+  diagram:
+    gliffy_return_text: Return to "%s"
   error:
     no_diagram: Diagram ID is not set.
 
